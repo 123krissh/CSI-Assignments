@@ -3,9 +3,13 @@ import pandas as pd
 from utils import load_model, create_input_df
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
 # Load model
-model = load_model("model/trained_model.pkl")
+model_path = "AssignmentWeek7/model/trained_model.pkl"
+if not os.path.exists(model_path):
+    model_path = "model/trained_model.pkl"  # Local fallback
+model = load_model(model_path)
 data = pd.read_csv("model/House Price Prediction Dataset.csv")
 
 st.set_page_config(page_title="House Price Predictor", layout="centered")
