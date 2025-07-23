@@ -1,4 +1,4 @@
-# 🧠 Customer Segmentation using KMeans Clustering
+# 🧠 Customer Segmentation based on their purchasing behavior and demographics to target marketing strategies effectively
 
 This project performs **Customer Segmentation** using the popular unsupervised machine learning algorithm **KMeans**. The goal is to group customers based on their purchasing behavior (e.g., annual income, spending score, age) to help businesses target marketing strategies effectively.
 
