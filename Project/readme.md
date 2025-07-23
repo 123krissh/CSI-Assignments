@@ -86,4 +86,5 @@ These plots help businesses understand what kind of customers spend more, which 
 
 - **Krishna Suthar**
 - B.Tech AI & Data Science
-- GitHub: 123krissh
+- Portfolio: [Krishna-suthar](https://krishna-suthar.vercel.app/)
+- GitHub: [123krissh](https://github.com/123krissh)
