@@ -1,5 +1,9 @@
-
 import joblib
+from sklearn.pipeline import Pipeline
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.ensemble import RandomForestRegressor
+
 import numpy as np
 import pandas as pd
 
