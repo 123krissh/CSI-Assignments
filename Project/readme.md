@@ -49,7 +49,6 @@ Dataset Source: [Mall Customers Dataset - Kaggle](https://www.kaggle.com/dataset
 
 - **Age vs Spending Score**
 - **Annual Income vs Spending Score**
-- **3D Cluster plots (optional if implemented)**
 
 These plots help businesses understand what kind of customers spend more, which age/income groups are high-value, etc.
 
@@ -68,7 +67,23 @@ These plots help businesses understand what kind of customers spend more, which 
 ## 🚀 How to Run
 
 1. Clone this repository or download the notebook.
-2. Install required packages (preferably in a virtual environment):
+2. Install required packages (preferably in a virtual environment)
+3. Open CustomerSegmentation.ipynb and run all cells.
 
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn
+## 📌 Results
+
+- The Elbow Method suggested K = 5 as an optimal number of clusters.
+- Each cluster represents a unique customer segment (e.g., high income & high spenders, young low spenders, etc.).
+- Visual plots clearly show segmentation based on behavior and demographics.
+
+## 📬 Future Work
+
+- Apply DBSCAN or Hierarchical Clustering for comparison.
+- Integrate customer feedback or transaction history.
+- Build a dashboard using Streamlit or Plotly Dash for real-time customer insights.
+
+## 🙋‍♂️ Author
+
+- **Krishna Suthar**
+- B.Tech AI & Data Science
+- GitHub: 123krissh
