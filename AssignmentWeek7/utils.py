@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load model
-def load_model(path="trained_model.pkl"):
+def load_model(path="AssignmentWeek7/model/trained_model.pkl"):
     return joblib.load(path)
 
 # Convert user input to DataFrame for prediction
