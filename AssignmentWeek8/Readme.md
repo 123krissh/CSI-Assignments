@@ -42,7 +42,7 @@ pip install -r requirements.txt
 GEMINI_API_KEY=your_gemini_api_key
 ```
 
-# 3. Run App
+### 3. Run App
 ```bash
 streamlit run app.py
 ```
