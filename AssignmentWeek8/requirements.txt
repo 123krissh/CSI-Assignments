@@ -1,0 +1,14 @@
+streamlit
+langchain
+faiss-cpu
+sentence-transformers
+transformers
+google-generativeai
+python-dotenv
+pymupdf
+python-docx
+pandas
+openpyxl
+beautifulsoup4
+lxml
+docx2txt
