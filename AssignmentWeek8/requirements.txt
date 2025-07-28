@@ -10,3 +10,4 @@ python-docx
 docx2txt
 pypdf
 qdrant-client
+langchain_community

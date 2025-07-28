@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from typing import Optional, List, Any
 
 # LangChain & Gemini
-from langchain.document_loaders import PyPDFLoader, TextLoader, Docx2txtLoader
+from langchain_community.document_loaders import PyPDFLoader, TextLoader, Docx2txtLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.chains import RetrievalQA
