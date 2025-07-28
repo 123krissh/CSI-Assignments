@@ -31,12 +31,12 @@ This is a Streamlit-based RAG (Retrieval-Augmented Generation) application that 
 
 ## ⚙️ Setup Instructions
 
-# 1. Install Dependencies
+### 1. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-# 2. Create .env File
+### 2. Create .env File
 - Create a .env file in the root directory and add your Gemini API key:
 ```bash
 GEMINI_API_KEY=your_gemini_api_key
@@ -46,4 +46,20 @@ GEMINI_API_KEY=your_gemini_api_key
 ```bash
 streamlit run app.py
 ```
+
+## 📁 Folder Structure
+```bash
+.
+├── app.py               # Main Streamlit app
+├── utils.py             # Utility functions (loaders, embeddings, chains)
+├── requirements.txt     # Python dependencies
+├── .env                 # API key for Gemini (not committed)
+└── README.md            # Project documentation
+```
+
+## 🙌 Acknowledgements
+- Google for Gemini API
+- HuggingFace for open-source sentence transformers
+- Qdrant for blazing-fast vector search
+- LangChain for simplifying RAG architecture
 
